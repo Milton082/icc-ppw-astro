@@ -1,43 +1,21 @@
-# Astro Starter Kit: Minimal
+# Astro-Campus
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+## Modulo 1
+En esta práctica se realizó la instalación y configuración inicial de Astro utilizando la plantilla minimal. Además, se verificó el funcionamiento del entorno de desarrollo, la estructura base del proyecto y la ejecución del servidor local y build de producción.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+--- 
 
-## 🚀 Project Structure
+### 1. Creación del proyecto
+![creación](assets/01-intalacion.png)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### 2. Salida de pnpm astro info
+![astro-info](assets/02-astro-info.png)
+---
+### 3. Sitio corriendo en local host
+![local-host](assets/03-local-host.png)
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 4. Salida del build de producción
+![build](assets/04-build.png)
